@@ -78,6 +78,15 @@ function onText(line, event) {
       type: 'text',
       text: 'https://help.salesforce.com/articleView?id=user_password.htm&language=ja&type=0'
     }]
+  },{
+    key: /.*プレステ.*/,
+    messages: [{
+      type: 'text',
+      text: 'こちらの情報はお役にたちますか？'
+    }, {
+      type: 'text',
+      text: 'https://cirrus-sccommunity-15e053742b2.force.com/napili/s/article/PS-VR-%E3%81%AE%E3%83%97%E3%83%AD%E3%82%BB%E3%83%83%E3%82%B5%E3%83%BC%E3%83%A6%E3%83%8B%E3%83%83%E3%83%88%E3%81%AE%E3%83%A9%E3%83%B3%E3%83%97%E3%81%AE%E5%85%89%E3%82%8A%E6%96%B9?language=ja'
+    }]
   }, {
     key: /./,
     messages: [{
