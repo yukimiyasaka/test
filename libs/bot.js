@@ -79,7 +79,7 @@ function onText(line, event) {
       text: 'https://help.salesforce.com/articleView?id=user_password.htm&language=ja&type=0'
     }]
   },{
-    key: /.*playstation.*/,
+    key: /.*プレステ.*/,
     messages: [{
       type: 'text',
       text: 'こちらの情報はお役にたちますか？'
